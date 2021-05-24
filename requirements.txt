@@ -1,0 +1,6 @@
+gensim
+psutil
+uvicorn
+fastapi
+sense2vec
+python-Levenhstein
