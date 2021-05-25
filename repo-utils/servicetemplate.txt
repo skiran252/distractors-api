@@ -11,7 +11,7 @@ User=skira
 Group=www-data
 # We'll then map out the working directory and set the PATH environmental variable so that the init system knows where our the executables for the process are located (within our virtual environment).
 WorkingDirectory=/home/skira/distractors-api
-Environment="/home/skira/distractors-api/venv/bin/"
+Environment="/home/skira/distractors-api/venv/bin"
 # We'll then specify the commanded to start the service
 ExecStart=/home/skira/distractors-api/venv/bin/python app.py
 # This will tell systemd what to link this service to if we enable it to start at boot. We want this service to start when the regular multi-user system is up and running:
